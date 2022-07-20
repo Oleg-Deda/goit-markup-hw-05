@@ -23,7 +23,7 @@
       <a class="header logo" href="" lang="en">Web<span class="logo-accent">Studio</span></a>
       <nav class="header-nav">
         <ul class="list header-list">
-          <li><a class="header-link current" href="./index.html">Студия</a></li>
+          <li><a class="current header-link " href="./index.html">Студия</a></li>
           <li><a class="header-link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="header-link" href="#contacts">Контакты</a></li>
         </ul>
@@ -49,7 +49,23 @@
     <section class="hero-section">
       <div class="container hero-container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
+<!-- Modal -->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="modal-btn" data-modal-close ></button>
+          <form class="form js-form">
+            <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+            <div class="form-field" >Имя</div>
+            <div class="form-field" >Телефон</div>
+            <div class="form-field" >Почта</div>
+            <div class="form-field" >Комментарий</div>
+            <div class="form-field" >Соглашаюсь с рассылкой и принимаю Условия договора</div>
+            <button class="button" type="submit">Отправить</button>
+            <button data-modal-close>Закрыть</button>
+            </form>
+        </div>
+      </div>
       </div>
     </section>
 
@@ -357,6 +373,8 @@
     </div>
     </div>
   </footer>
+
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
