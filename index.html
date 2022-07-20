@@ -30,13 +30,13 @@
       </nav>
       <ul class="header-contacts-nav list">
         <li class="header-mail">
-          <a href="mailto:info@devstudio.com"><svg class="mail-icon icon" width="16" height="12">
+          <a href="mailto:info@devstudio.com"><svg class="mail-icon icons" width="16" height="12">
               <use href="./images/icons.svg#envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
         <li class="header-phone">
-          <a href="tel:+380961111111"><svg class="tel-icon icon" width="10" height="16">
+          <a href="tel:+380961111111"><svg class="tel-icon icons" width="10" height="16">
               <use href="./images/icons.svg#smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
@@ -50,22 +50,7 @@
       <div class="container hero-container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
-<!-- Modal -->
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button class="modal-btn" data-modal-close ></button>
-          <form class="form js-form">
-            <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
-            <div class="form-field" >Имя</div>
-            <div class="form-field" >Телефон</div>
-            <div class="form-field" >Почта</div>
-            <div class="form-field" >Комментарий</div>
-            <div class="form-field" >Соглашаюсь с рассылкой и принимаю Условия договора</div>
-            <button class="button" type="submit">Отправить</button>
-            <button data-modal-close>Закрыть</button>
-            </form>
-        </div>
-      </div>
+
       </div>
     </section>
 
@@ -373,7 +358,25 @@
     </div>
     </div>
   </footer>
+<!-- Modal -->
+        <div class="backdrop">
+          <div class="modal">
+            <button class="modal-btn">
+              <svg class="modal-btn-icon" width="20" height="20" ><use href="./images/icons.svg#close-black" ></use> </svg>
+            </button>
 
+        </div>
+      </div>
+      <!-- <form class="form js-form">
+            <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+            <div class="form-field" >Имя</div>
+            <div class="form-field" >Телефон</div>
+            <div class="form-field" >Почта</div>
+            <div class="form-field" >Комментарий</div>
+            <div class="form-field" >Соглашаюсь с рассылкой и принимаю Условия договора</div>
+            <button class="button" type="submit">Отправить</button>
+            <button data-modal-close>Закрыть</button>
+            </form> -->
   <script src="./js/modal.js"></script>
 </body>
 

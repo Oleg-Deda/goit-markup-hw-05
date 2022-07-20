@@ -114,10 +114,6 @@ img {
   display: flex;
   gap: 50px;
 }
-/* .header-list {
-  display: flex;
-  gap: 50px;
-} */
 
 .header-list :hover,
 .header-list :focus {
@@ -149,15 +145,12 @@ img {
 
 /* Nav contacts  */
 /* Icons header */
+
 .icon {
   display: inline-block;
   fill: currentColor;
-  margin-right: 10px;
   vertical-align: middle;
 }
-/* .header-phone {
-  align-items: center;
-} */
 
 .contacts-mail,
 .contacts-phone {
@@ -346,6 +339,12 @@ img {
   background-color: var(--primary-white-color);
 }
 /* Socials icons */
+.icons {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 .socials {
   display: flex;
   align-items: center;
