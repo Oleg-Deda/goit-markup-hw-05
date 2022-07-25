@@ -359,12 +359,14 @@ img {
   position: absolute;
   display: flex;
   align-items: center;
-  left: 82px;
-  bottom: 35px;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  width: 370px;
+  height: 70px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   color: var(--primary-white-color);
   text-transform: uppercase;
 }
@@ -531,7 +533,6 @@ img {
 
 .footer-logo {
   color: var(--accent-color);
-  /* display: inline-block; */
   margin-bottom: 20px;
   margin-top: 0;
   font-family: 'Raleway';
@@ -704,7 +705,7 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .overlay-text {
-  padding: 63px 24px;
+  /* padding: 63px 24px; */
   font-size: 18px;
   line-height: 1.55;
   color: var(--primary-white-color);
